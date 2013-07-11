@@ -1,0 +1,131 @@
+/* Stylesheet for Dashboard page only*/
+body {
+  width: 800px;
+  margin: 0 auto;
+  font-family: helvetica, arial, sans-serif;
+  color: #c9c9c9;
+  text-align: center;
+}
+h2 {
+  width: 800px;
+  background-color: #c9c9c9;
+  color: white;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+div {
+  margin-bottom: 10px;
+}
+#habit_summary {
+  text-align: center;
+}
+#habitsline {
+  margin: 0 auto;
+  margin-bottom: -20px;
+}
+.legend {
+  font-size: 24px;
+  display: inline-block;
+  padding-bottom: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bolder;
+}
+#mental_habits {
+  background-color: rgba(255,145,145,1);
+
+}
+#physical_habits {
+  background-color: rgba(122,232,255,1);
+
+}
+#emotional_habits {
+  background-color: rgba(88,245,198,1);
+}
+#habit_holder, #social {
+  margin: 0 auto;
+  width: 800px;
+}
+#habit_holder canvas {
+  margin: 0 auto;
+  margin-bottom: -20px;
+}
+.habit_label {
+  height: 40px;
+  width: 800px;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0 auto;
+  background-color: #EDF0EF;
+  text-align: center;
+  color: #9c9c9c;
+  font-weight: normal;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: left;
+  padding-left: 10px;
+}
+.datelabel {
+  font-size: 16px;
+  font-weight: normal;
+  color: #9c9c9c;
+  display: inline-block;
+    -webkit-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+#date_labels {
+  width: 800px;
+  margin: 0 auto;
+ margin-bottom: 10px;
+}
+#habittitle {
+  color: #c9c9c9;
+  margin: 0 auto;
+  width: 800px;
+  font-size: 160px;
+  font-weight: bolder;
+  margin-bottom: -25px;
+  margin-top: 10px;
+  text-align: left;
+  float: left;
+}
+#topline {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: inline-block;  
+}
+#legend {
+  width: 800px;
+  height: 20px;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  font-weight: bolder;
+}
+#lineholder {
+  margin-bottom: 0px;
+}
+.section_label {
+  font-weight: bolder;
+  color: #c9c9c9;
+  font-size: 48px;
+  width: 800px;
+  margin: 0 auto;
+  margin-top: -40px;
+  margin-bottom: 10px;
+}
+#polarholder {
+  float: left;
+  margin-top: 20px;
+  margin-bottom: -40px;
+  text-align: left;
+}
+#errormsg {
+  font-size: 24px;
+  color: #9c9c9c;
+}
